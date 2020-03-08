@@ -1,0 +1,16 @@
+title: Finding your inner Spark
+description: Apache Spark introduction
+template:
+  repo: finding-your-inner-spark-template
+  name: finding-your-inner-spark
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
